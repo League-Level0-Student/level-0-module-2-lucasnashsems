@@ -5,12 +5,15 @@ package _01_intro_to_random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
 		int num = 0;
 		
-		//3   Now to make num random. 
+		//3   Now to make num random.
+	 mun = Random.
 		//3a. Create an object of the Random class, Hint: Random ran = new Random()
 		
 		//3b. Next, set the value of num, using .nextInt() to get a random number from the Random object
@@ -23,8 +26,9 @@ public class IntroToRandom {
 		//6. Challenge: Limit the value of num to be between -222 and 88
 
 		//1. Print out the value of num
+		System.out.println(num);
+		//2. Run num = 0he program.  What number appears in the console?
 		
-		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
 }
