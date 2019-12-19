@@ -13,12 +13,12 @@ public class IntroToRandom {
 		int num = 0;
 		
 		//3   Now to make num random.
-	 mun = Random.
+	
 		//3a. Create an object of the Random class, Hint: Random ran = new Random()
-		
+		Random ran = new Random();
 		//3b. Next, set the value of num, using .nextInt() to get a random number from the Random object
-		
-
+		num = ran.nextInt(75 - 25);
+ 
 		//4. Now limit the value of num to be between 0 and 100
 
 		//5. Now limit the value of num to be between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
